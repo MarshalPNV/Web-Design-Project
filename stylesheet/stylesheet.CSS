@@ -1,3 +1,8 @@
+.histmessage 
+{
+	margin-left: 5%;
+	margin-right: 5%;
+}
 header
 {
     padding: 10px;
@@ -5,20 +10,114 @@ header
     color: white;
     text-align:left;
 }
+h1 
+{
+	font-size: 1.5em;
+}
+.aboutimleft
+{
+	float:left;
+	margin-right:20px; 
+	border:2px solid #101820;
+	height: 250px; 
+	width: 300px;
+}
+.aboutimright
+{
+	float:right;
+	margin-left:20px; 
+	margin-bottom: 100px;
+	border:2px solid #101820;
+	height: 250px; 
+	width: 300px;
+}
+.aboutims 
+{
+	margin-left: 4%;
+	margin-right: 4%;
+}
+label 
+{
+	float:left;
+	width: 112px;
+	padding-right: 10px;
+	text-align: right;
+}
+input 
+{
+	margin-left: 1em;
+	margin-bottom: .5em;
+	width: 220px;
+}
+#button, #reset 
+{
+	margin-top: .5em;
+	width: 8em;
+	background-color: #FEE715;
+	border: 2px solid #101820;
+}
+input[type="checkbox"] {width: 15px;}
+#button 
+{
+	margin-left: 138px;
+}
+#reset 
+{
+	margin-left: 82px;
+}
+input[type="radio"] {width: 10px}
+.menustuff 
+{
+	float:left;
+	margin-left: 13%;
+	border:2px solid #101820;
+	max-width: 300px;
+	width: 100%;
+	height: 200px;
+}
+.menustufftext 
+{
+	margin-left:5%;
+}
+.menuText 
+{
+	margin-left: 30%
+}
 .left1 
 {
     margin-left: 80px;
+}
+.activePage 
+{
+	background-color: #101820;
+}
+.required 
+{
+	font-weight: bold;
+	color: red;
+}
+nav ul li.activePage a 
+{
+    color: white;
 }
 .welcome 
 {
     text-align: center; 
     background-color: #FEE715;
     padding: 10px;            
-    margin: 0 auto; 
+    margin-left: 500px; 
+	margin-right: 500px; 
+
 }
 .history 
 {
     text-align: center;
+}
+.img10 
+{
+	width: 30%;
+	height: 350px;
+	border: 3px solid #101820;
 }
 nav 
 {
@@ -33,7 +132,7 @@ nav ul
 nav ul li
 {
     list-style-type:none;
-    background-color:lightgray;
+    background-color:white;
     display:inline;
     padding:15px;
     margin:5px;
@@ -42,21 +141,29 @@ nav ul li
 }
 nav ul li a
 {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 nav ul li:hover
 {background-color: #101820;}
 .img1
 {
-    border: 3px solid #101820;
-    margin-left:25%;
-    margin-top: 5%;
+    margin: auto;
+	display: block;
+	border: 3px solid #101820;
+	width: 100%;
+	max-width: 1920px;
+	height: 500px;
 }
 .img2
 {
     border: 3px solid #101820;
     margin-left:25%;
+}
+body 
+{
+	font-family: timesnewroman;
+	margin: 0%;
 }
 .message 
 {
@@ -79,4 +186,8 @@ footer p
 {
     text-align:center;
     color: white;
+}
+.form 
+{
+	margin-left: 5%
 }
